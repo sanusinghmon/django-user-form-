@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>data form </title>
+</head>
+<body>
+
+<h1>posts </h1>
+<hr/>
+<form action="" method="POST">
+    {% csrf_token %}
+<input type="text" placeholder="enter user name " name="username" required/><br/>
+<input type="text" placeholder="enter email id " name="email" required /><br/>
+<input type="submit" value="post"/>
+</form>
+<hr/>
+</body>
+</html>
